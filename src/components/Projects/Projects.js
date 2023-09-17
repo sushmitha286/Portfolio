@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/leaves.png";
+import cinema from "../../Assets/Projects/cinema.png";
+import water from "../../Assets/Projects/water.png";
+import sosit from "../../Assets/Projects/sos-it.png";
+import train from "../../Assets/Projects/train.png";
+import blood from "../../Assets/Projects/blood.png";
 
 function Projects() {
   return (
@@ -23,34 +23,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={sosit}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="SOS-IT"
+              description="Introducing our innovative app with dual functionality. In 'Customer Mode,' users can place orders for doorstep delivery, while 'Agent Mode' enables individuals to accept orders within their travel radius. This platform empowers students, job seekers, and those seeking extra income to efficiently deliver orders while on the go. Join us for a convenient and profitable experience."
+              ghLink="https://github.com/sushmitha286/SOS-IT"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={blood}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Blood Track"
+              description="Experience the power of our Blood Bank Management System, offering administrators seamless control over user access, donor records, and vital inventory data. With comprehensive categorization of different blood groups, it ensures a ready supply for every need. Detailed receiver information capture allows for precise donor matching, and efficient blood request management ensures timely responses. Elevate your blood bank's operations with our all-inclusive solution"
+              ghLink="https://github.com/sushmitha286/Blood-bank-management-system"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={water}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Hydro Remainder"
+              description="HydroReminder is a fantastic app designed to prioritize your health. For those with busy lives, it's the perfect solution to ensure you stay adequately hydrated. This app serves as your water tracker and timely reminder, calculating your daily water intake based on your gender and weight. It also offers a convenient water consumption history tracker and rewards achievements as you meet your daily hydration goals."
+              ghLink="https://github.com/sushmitha286/Hydro_Remainder"
+                         
             />
           </Col>
 
@@ -58,33 +58,32 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Generic approach toplant leaf disease classification and verification"
+              description="Revolutionizing plant disease detection with VGG19, Inception V3, and Inception ResNet v2 models, achieving an impressive 93% accuracy. Our comprehensive approach combines physical plant analysis and crop disease data for robust classification and verification."
+              ghLink="https://github.com/sushmitha286/A-Generic-Approach-to-Plant-leaf-diseases-Classification-and-Verification"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={train}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Railway ticket hub"
+              description="Created an end-to-end train ticketing solution, simplifying booking, seat reservations, and seamless payment processing. Crafted intuitive user interfaces for web and mobile, prioritizing accessibility. Seamlessly integrated live data feeds for precise scheduling information, optimizing the passenger experience."
+              ghLink="https://github.com/sushmitha286/Train-ticketing-system"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={cinema}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Light camera movie"
+              description="Light camera movie is a robust and user-friendly movie database management system that encompasses essential features like secure user login and signup, seamless movie and theatre browsing, interactive seat selection, secure payment processing, and convenient ticket printing. Additionally, the platform offers a 'Contact us' section for user inquiries, ensuring a comprehensive movie-watching experience."
+              ghLink="https://github.com/sushmitha286/Movie-Database-Management-System"
+              
             />
           </Col>
         </Row>

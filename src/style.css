@@ -307,13 +307,16 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 2em !important;
+ 
+ 
 }
 
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding-bottom: 1em !important;
+
   }
 }
 
@@ -466,6 +469,7 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
