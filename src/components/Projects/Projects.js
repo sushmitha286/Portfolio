@@ -8,6 +8,8 @@ import water from "../../Assets/Projects/water.png";
 import sosit from "../../Assets/Projects/sos-it.png";
 import train from "../../Assets/Projects/train.png";
 import blood from "../../Assets/Projects/blood.png";
+import fullstack from "../../Assets/Projects/FS.png"
+
 
 function Projects() {
   return (
@@ -86,6 +88,17 @@ function Projects() {
               
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fullstack}
+              isBlog={false}
+              title="Full Stack Project"
+              description="I've developed a dynamic full-stack project showcasing my web development skills. The backend is powered by Node.js and Express.js, while the frontend utilizes HTML, CSS, Bootstrap, and React.js, resulting in a robust and responsive web application."
+              ghLink="https://github.com/sushmitha286/FullStack"
+              
+            />
+          </Col>
+        
         </Row>
       </Container>
     </Container>
