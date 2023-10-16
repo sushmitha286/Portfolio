@@ -8,6 +8,7 @@ import water from "../../Assets/Projects/water.png";
 import sosit from "../../Assets/Projects/sos-it.png";
 import train from "../../Assets/Projects/train.png";
 import blood from "../../Assets/Projects/blood.png";
+import fullstack from "../../Assets/Projects/FS.png"
 
 function Projects() {
   return (
@@ -83,6 +84,16 @@ function Projects() {
               title="Light camera movie"
               description="Light camera movie is a robust and user-friendly movie database management system that encompasses essential features like secure user login and signup, seamless movie and theatre browsing, interactive seat selection, secure payment processing, and convenient ticket printing. Additionally, the platform offers a 'Contact us' section for user inquiries, ensuring a comprehensive movie-watching experience."
               ghLink="https://github.com/sushmitha286/Movie-Database-Management-System"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fullstack}
+              isBlog={false}
+              title="Full Stack Project"
+              description="I've developed a dynamic full-stack project showcasing my web development skills. The backend is powered by Node.js and Express.js, while the frontend utilizes HTML, CSS, Bootstrap, and React.js, resulting in a robust and responsive web application."
+              ghLink="https://github.com/sushmitha286/FullStack"
               
             />
           </Col>
